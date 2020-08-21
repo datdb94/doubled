@@ -11,7 +11,7 @@ import androidx.databinding.DataBindingUtil;
 import androidx.databinding.ViewDataBinding;
 import androidx.fragment.app.Fragment;
 
-public abstract class BaseFragment<T extends ViewDataBinding> extends Fragment {
+public abstract class BaseFragment<T extends ViewDataBinding> extends Fragment implements View.OnClickListener {
 
     protected T binding;
 
@@ -35,4 +35,11 @@ public abstract class BaseFragment<T extends ViewDataBinding> extends Fragment {
     protected abstract void init();
 
     protected abstract void initBinding();
+
+    protected abstract void onClick(int id);
+
+    @Override
+    public void onClick(View view) {
+        onClick(view.getId());
+    }
 }
