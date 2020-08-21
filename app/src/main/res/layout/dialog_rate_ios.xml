@@ -37,7 +37,7 @@
         android:textColor="#212121"
         android:textSize="@dimen/_14sdp" />
 
-    <doubled.rate.view.RotationRatingBar
+    <com.bd.base.rate.view.RotationRatingBar
         android:id="@+id/simpleRatingBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
