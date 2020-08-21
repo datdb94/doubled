@@ -1,6 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'maven'
-apply plugin: 'android-maven'
+apply plugin: 'com.github.dcendents.android-maven'
 group = 'com.github.datdb94'
 
 android {
@@ -13,7 +12,6 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "com.bd.base"
         minSdkVersion 16
         targetSdkVersion 30
         versionCode 1
