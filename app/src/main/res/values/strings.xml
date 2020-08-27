@@ -3,4 +3,5 @@
     <string name="content">How much do you love our app?</string>
     <string name="purchase_success">Purchase Success</string>
     <string name="error">Error</string>
+    <string name="admob_app_id" />
 </resources>
