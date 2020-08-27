@@ -10,40 +10,41 @@
 
     <ImageView
         android:id="@+id/img_icon_app"
-        android:layout_width="@dimen/_45sdp"
-        android:layout_height="@dimen/_45sdp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="12dp" />
+        android:layout_marginTop="12dp"
+        android:scaleType="centerInside" />
 
     <TextView
         android:id="@+id/txt_name_app"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginTop="10dp"
         android:gravity="center_horizontal"
         android:text="@string/app_name"
         android:textColor="#212121"
-        android:textSize="@dimen/_17sdp" />
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/txt_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginTop="5dp"
         android:gravity="center_horizontal"
         android:text="@string/content"
         android:textColor="#212121"
-        android:textSize="@dimen/_14sdp" />
+        android:textSize="16sp" />
 
     <com.bd.base.rate.view.RotationRatingBar
         android:id="@+id/simpleRatingBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/_5sdp"
-        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
         android:gravity="center"
         rb:clearRatingEnabled="true"
         rb:starPadding="16"
@@ -51,7 +52,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/_40sdp"
+        android:layout_height="45dp"
         android:gravity="center|right"
         android:orientation="horizontal">
 
@@ -65,7 +66,7 @@
             android:text="Later"
             android:textAllCaps="false"
             android:textColor="@color/colorAccent"
-            android:textSize="@dimen/_14sdp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/btn_ok"
@@ -78,7 +79,7 @@
             android:text="Rate now"
             android:textAllCaps="false"
             android:textColor="@color/colorAccent"
-            android:textSize="@dimen/_14sdp" />
+            android:textSize="16sp" />
 
     </LinearLayout>
 </LinearLayout>
